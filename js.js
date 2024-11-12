@@ -50,7 +50,7 @@ if(tempoIniziale===null){
     tempoIniziale=0
 
 }
-let timeScorre
+
 const timer=document.getElementById("timer")
 const contatore =function(){
     timeScorre=setInterval(function(){
