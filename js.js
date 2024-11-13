@@ -53,7 +53,7 @@ if(tempoIniziale===null){
 
 const timer=document.getElementById("timer")
 const contatore =function(){
-    timeScorre=setInterval(function(){
+    setInterval(function(){
         tempoIniziale++;
         timer.innerText=tempoIniziale;
         sessionStorage.setItem("tempoIniziale", tempoIniziale)
